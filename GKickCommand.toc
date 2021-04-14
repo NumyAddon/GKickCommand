@@ -1,0 +1,7 @@
+## Interface: 90005
+## Title: GKickCommand
+## Notes: Adds a working /gkick command
+## Author: Numy
+## Version: @project-version@
+
+GKickCommand.lua

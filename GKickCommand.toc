@@ -1,4 +1,7 @@
 ## Interface: @toc-version-retail@
+## Interface-Retail: @toc-version-retail@
+## Interface-Classic: @toc-version-classic@
+## Interface-BCC: @toc-version-bcc@
 ## Title: GKickCommand
 ## Notes: Adds a working /gkick command
 ## Author: Numy

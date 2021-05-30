@@ -12,7 +12,7 @@ AUTOCOMPLETE_LIST['GKICK'] = AUTOCOMPLETE_LIST.GUILD_UNINVITE;
 
 _G.SLASH_GKICK1 = '/gkick';
 SlashCmdList['GKICK'] = function(msg)
-	print('the corrected command will be filled into your chat box in a second...');
+	print('The corrected command will be filled into your chat box in a second...');
 	C_Timer__After(1, function()
 		ChatFrame_OpenChat(command .. ' ' .. msg);
 	end);

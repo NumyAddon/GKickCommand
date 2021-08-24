@@ -7,5 +7,6 @@
 ## Author: Numy
 ## Version: @project-version@
 ## X-Curse-Project-ID: 471057
+## X-Wago-ID: lQNlREKe
 
 GKickCommand.lua

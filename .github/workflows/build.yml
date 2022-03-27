@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Replace toc-versions
-        uses: Numynum/ToCVersions@v1
+        uses: Numynum/ToCVersions@master
 
       - name: Create Package
         uses: BigWigsMods/packager@v2

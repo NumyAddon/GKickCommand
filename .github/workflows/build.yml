@@ -15,31 +15,12 @@ jobs:
           fetch-depth: 0
 
       - name: Replace toc-versions
-        uses: Numynum/ToCVersions@master
+        uses: Numynum/ToCVersions@v1
 
-      - name: Create version specific ToC files
-        uses: Numynum/ToCDuplicator@master
-
-      - name: Create Retail Package
-        uses: BigWigsMods/packager@master
-        env:
-          CF_API_KEY: ${{ secrets.CF_API_KEY }}
-          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
-          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
-
-      - name: Create Classic Package
-        uses: BigWigsMods/packager@master
+      - name: Create Package
+        uses: BigWigsMods/packager@v2
         with:
-          args: -g classic
-        env:
-          CF_API_KEY: ${{ secrets.CF_API_KEY }}
-          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
-          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
-
-      - name: Create Burning Crusade Package
-        uses: BigWigsMods/packager@master
-        with:
-          args: -g bcc
+          args: -S
         env:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

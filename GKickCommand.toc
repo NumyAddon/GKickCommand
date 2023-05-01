@@ -6,6 +6,7 @@
 ## Title: GKickCommand
 ## Notes: Adds a working /gkick command
 ## Author: Numy
+## IconTexture: 982414
 ## Version: @project-version@
 ## X-Curse-Project-ID: 471057
 ## X-Wago-ID: lQNlREKe
